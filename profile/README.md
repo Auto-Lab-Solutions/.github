@@ -179,8 +179,8 @@ graph TB
 </div>
 
 <div align="center">
-  <img src="screenshots/Analytics_Overview_2.png" alt="Analytics Dashboard" width="250"/>
   <img src="screenshots/Appointment_Details.png" alt="Mobile Appointment Details" width="250"/>
+  <img src="screenshots/Analytics_Overview_2.png" alt="Analytics Dashboard" width="250"/>
 </div>
 
 #### Role-Based Feature Access
@@ -264,7 +264,7 @@ lambda/
 
 ## 🔄 Data Flow & API Architecture
 
-### � **Database Schema Design**
+### 📊 **Database Schema Design**
 
 #### DynamoDB Table Structure
 
@@ -300,7 +300,8 @@ The analytics system implements comprehensive revenue and business intelligence 
 
 ---
 
-## � Real-time Communication System
+## 📡 **Real-time Communication System**
+Real-time Communication System
 
 ### 🌐 **WebSocket Implementation**
 
@@ -359,7 +360,7 @@ The conflict detection system performs real-time availability checking by queryi
 
 ---
 
-## � File Management & Report Processing
+## 📁 **File Management & Report Processing**
 
 ### 🔍 **Document Processing Pipeline**
 
