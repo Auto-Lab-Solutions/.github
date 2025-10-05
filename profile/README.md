@@ -308,8 +308,8 @@ The analytics system implements comprehensive revenue and business intelligence 
 The WebSocket system implements robust connection management using AWS API Gateway WebSocket API with Lambda backend functions. Connections are tracked in DynamoDB with timestamps and status information, enabling efficient cleanup of stale connections. The system handles connection establishment, message routing, and graceful disconnection with automatic cleanup processes. Connection state is managed per user session with support for multiple concurrent connections per user.
 
 <div align="center">
-  <img src="screenshots/Chatbox.png" alt="WebSocket Chat Implementation" width="500"/>
-  <img src="screenshots/Customer_Support_Chat_Thread.png" alt="Message Threading System" width="250"/>
+  <img src="screenshots/Chatbox.png" alt="WebSocket Chat Implementation" width="700"/>
+  <img src="screenshots/Customer_Support_Chat_Thread.png" alt="Message Threading System" width="180"/>
 </div>
 
 #### Message Broadcasting
@@ -376,8 +376,8 @@ The file upload system implements secure presigned URL generation for direct cli
 Our report processing system automates the entire workflow from upload to customer delivery. When mechanics upload inspection reports, the system automatically creates database records, tracks file metadata, and triggers admin notifications. The approval workflow includes status tracking, admin review capabilities, and automated customer notifications upon approval. This ensures quality control while maintaining transparency throughout the service process.
 
 <div align="center">
-  <img src="screenshots/Appointment_Upload_Reports.png" alt="File Upload System" width="250"/>
-  <img src="screenshots/Appointment_Inspection_Reports.png" alt="Report Processing" width="500"/>
+  <img src="screenshots/Appointment_Upload_Reports.png" alt="File Upload System" width="180"/>
+  <img src="screenshots/Appointment_Inspection_Reports.png" alt="Report Processing" width="700"/>
 </div>
 
 ### 📊 **PDF Generation & Delivery System**
