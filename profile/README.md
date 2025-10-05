@@ -151,7 +151,7 @@ graph TB
 - **Error Handling**: React Error Boundaries for graceful error handling
 
 <div align="center">
-  <img src="screenshots/Home_Who_We_Are.png" alt="Web Application Interface" width="600"/>
+  <img src="screenshots/Home_Who_We_Are.png" alt="Web Application Interface" width="500"/>
 </div>
 
 <div align="center">
