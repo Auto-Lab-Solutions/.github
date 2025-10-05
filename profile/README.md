@@ -175,11 +175,11 @@ graph TB
 
 <div align="center">
   <img src="screenshots/Admin_More_Screen.png" alt="Mobile App Interface" width="250"/>
-  <img src="screenshots/Analytics_Overview_2.png" alt="Analytics Dashboard" width="250"/>
+  <img src="screenshots/Appointments_List.png" alt="Mobile Appointment Management" width="250"/>
 </div>
 
 <div align="center">
-  <img src="screenshots/Appointments_List.png" alt="Mobile Appointment Management" width="250"/>
+  <img src="screenshots/Analytics_Overview_2.png" alt="Analytics Dashboard" width="250"/>
   <img src="screenshots/Appointment_Details.png" alt="Mobile Appointment Details" width="250"/>
 </div>
 
