@@ -367,11 +367,6 @@ The conflict detection system performs real-time availability checking by queryi
 #### S3 Upload with Presigned URLs
 The file upload system implements secure presigned URL generation for direct client-to-S3 uploads with comprehensive validation and security controls. The system validates file types, sizes, and content types before generating time-limited upload URLs. Files are organized in S3 with appointment-specific folder structures and unique filename generation to prevent conflicts.
 
-<div align="center">
-  <img src="screenshots/Booking_Form.png" alt="File Upload Interface" width="500"/>
-  <img src="screenshots/Email_Payment_Complete.png" alt="Document Processing" width="500"/>
-</div>
-
 #### Reports Upload & Approval Workflow
 
 Our report processing system automates the entire workflow from upload to customer delivery. When mechanics upload inspection reports, the system automatically creates database records, tracks file metadata, and triggers admin notifications. The approval workflow includes status tracking, admin review capabilities, and automated customer notifications upon approval. This ensures quality control while maintaining transparency throughout the service process.
