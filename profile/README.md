@@ -38,47 +38,9 @@ The platform implements a distributed microservices architecture using AWS serve
 
 ### 🏗️ **Infrastructure Diagram**
 
-```mermaid
-graph TB
-    subgraph "Client Layer"
-        A[React Web App<br/>Vite + Tailwind]
-        B[React Native Mobile<br/>iOS/Android]
-    end
-    
-    subgraph "API Gateway Layer"
-        C[REST API Gateway<br/>Custom Domain + CORS]
-        D[WebSocket API<br/>Real-time Messaging]
-    end
-    
-    subgraph "Compute Layer"
-        E[Lambda Functions<br/>Python 3.13 Runtime]
-        F[Lambda Authorizers<br/>JWT Validation]
-    end
-    
-    subgraph "Data Layer"
-        G[DynamoDB Tables<br/>15 Normalized Tables]
-        H[S3 Buckets<br/>File Storage]
-        I[CloudFront CDN<br/>Global Distribution]
-    end
-    
-    subgraph "External APIs"
-        J[Auth0<br/>Identity Provider]
-        K[Stripe<br/>Payment Processor]
-        L[AWS SES<br/>Email Service]
-    end
-    
-    A --> C
-    B --> C
-    C --> E
-    D --> E
-    E --> F
-    E --> G
-    E --> H
-    H --> I
-    F --> J
-    E --> K
-    E --> L
-```
+<div align="center">
+  <img src="System_Architecture.png" alt="AWS System Architecture Diagram" width="800"/>
+</div>
 
 ### 💻 **Frontend Stack**
 
