@@ -36,7 +36,7 @@ Auto Lab Solutions is a full-stack automotive service management platform implem
 
 The platform implements a distributed microservices architecture using AWS serverless technologies for scalability and cost optimization.
 
-### 🏗️ **Infrastructure Diagram**
+### 🏗️ **System Architecture Diagram**
 
 <div align="center">
   <img src="System_Architecture.png" alt="AWS System Architecture Diagram" width="800"/>
